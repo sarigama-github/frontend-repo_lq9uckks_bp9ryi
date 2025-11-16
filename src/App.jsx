@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import Collection from './components/Collection'
 import CTA from './components/CTA'
+import Scroll3D from './components/Scroll3D'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Scroll3D />
         <Collection />
         <Features />
         <CTA />
